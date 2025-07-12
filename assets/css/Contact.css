@@ -1,0 +1,195 @@
+
+@media only screen and (max-width: 768px) {
+    body {
+    margin: 0;
+    padding: 0;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        background-color: #d9d9d9;
+        font-family: "fira-sans-condensed";
+        gap: 3rem;
+
+        .top-header {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .logo {
+                font-family: "Metamorphous";
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 5vw;
+            }
+
+            .menu-burger {
+                border: 0;
+                background-color: #d9d9d9;
+                color: #0b6e4f;
+                :hover {
+                    cursor: pointer;
+                }
+            }
+
+            .xmark-menu {
+                display: none;
+                border: 0;
+                background-color: #d9d9d9;
+                color: #0b6e4f;
+                :hover {
+                    cursor: pointer;
+                }
+            }
+        }
+        nav {
+            display: none;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            gap: 3rem;
+            width: 100%;
+
+            select {
+                width: 80%;
+                height: 2rem;
+                font-family: "fira-sans-condensed";
+                border-radius: 10px;
+            }
+
+            .search-input {
+                position: relative;
+                display: inline-block;
+                width: 80%;
+                height: 2rem;
+            
+                input {
+                    width: 100%;
+                    height: 100%;
+                    font-family: "fira-sans-condensed";
+                    border-radius: 10px;
+                }
+
+                i {
+                    position: absolute;
+                    right: 1rem;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    pointer-events: none;
+                }
+            }
+            
+
+            button {
+                margin-bottom: 2rem;
+                background-color: #d9d9d9;
+                border: 0;
+            }
+        }
+    }
+
+    a {
+    text-decoration: none;
+    color: black;
+    font-family: "Fira Sans Condensed";
+    }
+}
+
+
+@media only screen and (min-width: 769px) {
+    body {
+    margin: 0;
+    padding: 0;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        background-color: #d9d9d9;
+        font-family: "fira-sans-condensed";
+        gap: 3rem;
+
+        .top-header {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .logo {
+                font-family: "Metamorphous";
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 5vw;
+            }
+
+            .menu-burger {
+               display: none;
+            }
+
+            .xmark-menu {
+                display: none;
+            }
+        }
+        nav {
+            margin-right: 2rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            width: 80%;
+            gap: 3rem;
+
+            select {
+                height: 2rem;
+                font-family: "fira-sans-condensed";
+                border-radius: 10px;
+                order: 2;
+            }
+
+            .search-input {
+                position: relative;
+                display: inline-block;
+                height: 2rem;
+                order: 3;
+            
+                input {
+                    width: 100%;
+                    height: 100%;
+                    font-family: "fira-sans-condensed";
+                    border-radius: 10px;
+                }
+
+                i {
+                    position: absolute;
+                    right: 1rem;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    pointer-events: none;
+                }
+            }
+            
+            button {
+                order: 1;
+                height: 2rem;
+                background-color: #0b6e4f;
+                border: 2px black solid;
+                border-radius: 10px;
+            
+
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
+
+    a {
+    text-decoration: none;
+    color: black;
+    font-family: "Fira Sans Condensed";
+    }
+}

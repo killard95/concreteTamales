@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/Contact.css" />
+    <script src="./assets/js/ConcreteTamales.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Metamorphous&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,
+            wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;
+            1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Metamorphous&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/8fae4ee487.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <div class="top-header">
+        <a href="#">
+          <figure class="logo">
+            <img src="./assets/images/Mexican.png" alt="image logo" />
+            <figcaption>Concrete Tamales</figcaption>
+          </figure>
+        </a>
+        <button class="menu-burger" onclick="openMenuBurger()">
+          <i class="fa-solid fa-bars fa-2xl"></i>
+        </button>
+        <button class="xmark-menu" onclick="closeMenuBurger()">
+          <i class="fa-solid fa-xmark fa-2xl"></i>
+        </button>
+      </div>
+      <nav>
+        <div class="search-input">
+          <input type="search" name="mail" placeholder="Recherche" />
+          <i class="fa-solid fa-magnifying-glass" id="icone-loupe"></i>
+        </div>
+        <select name="langue" id="langue-select">
+          <option value="">Langue</option>
+          <option value="francais">Francais</option>
+          <option value="anglais">Anglais</option>
+          <option value="espagnol">Espagnol</option>
+          <option value="portugais">Portugais</option>
+        </select>
+        <button class="contact-button">
+          <a href="#">Contact</a>
+        </button>
+      </nav>
+    </header>
+  </body>
+</html>
