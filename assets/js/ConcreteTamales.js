@@ -31,10 +31,7 @@
     buttonMenuBurger.style.display = "block";
     xmarkMenuBurger.style.display = "none";
   });
-});
 
-
-document.addEventListener("DOMContentLoaded", () => {
   let input = document.querySelector("#searchInput");
   let magnifyingGlasses = document.querySelector("#icone-loupe");
 
@@ -46,6 +43,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+
+
 
     
 
