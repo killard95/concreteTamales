@@ -1,0 +1,30 @@
+section {
+   display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 2rem;
+
+    .card {
+        width: 80%;
+        background-color: #d9d9d9;
+        text-align: center;
+        font-family: "fira-sans-condensed", "Arial", sans-serif;
+
+        h2 {
+            color: white;
+            background-color: #0b6e4f;
+        }
+    
+        img {
+            width: 50%;
+        }
+
+        button {
+            background-color: #0b6e4f;
+            color: white;
+            border-radius: 50%;
+
+        }
+    
+    }
+}
