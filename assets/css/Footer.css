@@ -1,0 +1,45 @@
+footer {
+    background-color: #d9d9d9;
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "fira-sans-condensed", "Arial", sans-serif;
+
+
+    .logo {
+        font-family: "Metamorphous", "Arial", sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 5vw;
+    }
+
+    .social-media {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 2rem;
+
+        p {
+            align-self: center;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 1rem;
+            margin: 0;
+            padding: 0;
+            
+
+            li {
+                list-style: none;
+            }
+        }
+    }
+}
